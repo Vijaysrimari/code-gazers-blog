@@ -3,14 +3,14 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: ;dodgerblue
+    background-color:lime;
 }
 
 header {
 font-family:cooper black;
 font-color:black;
 font-size:25px;
-    background-color: skyblue;
+    background-color: red;
     color: white;
     padding: 1rem;
     text-align: center;
