@@ -1,4 +1,4 @@
-function addComment() {
+function addComment(event) {
     const commentInput = event.target.previousElementSibling;
     const commentSection = commentInput.previousElementSibling;
 
