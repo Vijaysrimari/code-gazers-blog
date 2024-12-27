@@ -4,7 +4,7 @@ function addComment(event) {
 
     if (commentInput.value.trim() !=="" ) {
         const newComment = document.createElement('p');
-        Comment.textContent = commentInput.value;
+        new Comment.textContent = commentInput.value;
         commentSection.appendChild(newComment);
         commentInput.value = '';
     } else {
