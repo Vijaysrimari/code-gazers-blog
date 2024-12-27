@@ -8,6 +8,6 @@ function addComment(event) {
         commentSection.appendChild(newComment);
         commentInput.value = '';
     } else {
-        alert("Comment cannot be empty!");
+        alert("Comment cannot be empty");
     }
 }
