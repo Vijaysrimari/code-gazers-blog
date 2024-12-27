@@ -1,6 +1,6 @@
 function addComment(event) {
     const commentInput = event.target.previousElementSibling;
-     commentSection = commentInput.previousElementSibling;
+    const commentSection = commentInput.previousElementSibling;
 
     if (commentInput.value.trim() !=="" ) {
         const newComment = document.createElement('p');
